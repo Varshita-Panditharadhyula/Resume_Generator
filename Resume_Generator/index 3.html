@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Resume Builder</title>
+  <link rel="stylesheet" href="styles 3.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>Resume Builder</h1>
+    <form id="resume-form">
+      <!-- Basic Information -->
+      <fieldset>
+        <legend>Basic Information</legend>
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" placeholder="John Doe" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="example@example.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="+1 123 456 7890" required />
+        </div>
+
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" placeholder="123 Main St, City, Country" required></textarea>
+        </div>
+      </fieldset>
+
+      <!-- Profile Summary -->
+      <fieldset>
+        <legend>Profile Summary</legend>
+        <div class="form-group">
+          <textarea id="summary" name="summary" placeholder="Write a brief summary of your career and skills" required></textarea>
+        </div>
+      </fieldset>
+
+      <!-- Education & Experience -->
+      <fieldset>
+        <legend>Education & Experience</legend>
+        <div class="form-group">
+          <label for="education">Education:</label>
+          <textarea id="education" name="education" placeholder="Degree, University, Year" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="experience">Experience:</label>
+          <textarea id="experience" name="experience" placeholder="Company, Position, Duration" required></textarea>
+        </div>
+      </fieldset>
+
+      <!-- Skills -->
+      <fieldset>
+        <legend>Skills</legend>
+        <div class="form-group">
+          <label for="skills">Skills (comma-separated):</label>
+          <input type="text" id="skills" name="skills" placeholder="HTML, CSS, JavaScript" required />
+        </div>
+
+        <div class="form-group">
+          <label for="skills-level">Skill Proficiency:</label>
+          <input type="text" id="skills-level" name="skills-level" placeholder="Basic, Intermediate, Advanced" required />
+        </div>
+      </fieldset>
+
+      <!-- Certifications & Projects -->
+      <fieldset>
+        <legend>Certifications & Projects</legend>
+        <div class="form-group">
+          <label for="certifications">Certifications/Awards:</label>
+          <textarea id="certifications" name="certifications" placeholder="Certification Name, Year"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="projects">Projects:</label>
+          <textarea id="projects" name="projects" placeholder="Project Name, Description"></textarea>
+        </div>
+      </fieldset>
+
+      <!-- Languages & References -->
+      <fieldset>
+        <legend>Languages & References</legend>
+        <div class="form-group">
+          <label for="languages">Languages:</label>
+          <input type="text" id="languages" name="languages" placeholder="English, Spanish, French" required />
+        </div>
+
+        <div class="form-group">
+          <label for="references">References:</label>
+          <textarea id="references" name="references" placeholder="Name, Position, Contact"></textarea>
+        </div>
+      </fieldset>
+
+      <!-- Social Media Links -->
+      <fieldset>
+        <legend>Social Media Links</legend>
+        <div class="form-group">
+          <label for="linkedin">LinkedIn:</label>
+          <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/username" />
+        </div>
+
+        <div class="form-group">
+          <label for="github">GitHub:</label>
+          <input type="url" id="github" name="github" placeholder="https://github.com/username" />
+        </div>
+      </fieldset>
+<div class="form-group">
+  <label for="profile-picture">Upload Profile Picture:</label>
+  <input type="file" id="profile-picture" name="profile-picture" accept="image/*" />
+</div>
+
+      <!-- Template Selection -->
+      <fieldset>
+        <legend>Choose a Template</legend>
+        <div class="form-group">
+          <select id="template" name="template" required>
+            <option value="template1">Template1</option>
+            <option value="template2">Template2</option>
+            <option value="template3">Template3</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <button type="submit">Generate Resume</button>
+    </form>
+  </div>
+  <script src="script 3.js"></script>
+</body>
+</html>

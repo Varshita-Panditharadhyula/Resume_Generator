@@ -1,0 +1,184 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+/* Input Fields with Borders */
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc; /* Thicker border */
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box; /* Prevent padding from affecting width */
+}
+
+/* Focus Effect for Inputs */
+input:focus, textarea:focus, select:focus {
+  border-color: #007bff; /* Change color on focus */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4); /* Light glow effect */
+  outline: none;
+}
+
+  
+
+/* Focus Effect for Inputs */
+input:focus, textarea:focus, select:focus {
+  border-color: #007bff; /* Change color on focus */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4); /* Light glow effect */
+  outline: none;
+}
+
+}
+
+.form-page {
+  background: linear-gradient(to right, #f3f4f7, #d1d7db);
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+  display: block;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: #007bff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Resume Page Styles */
+.template1, .template2, .template3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
+  color: #000;
+  font-family: 'Arial', sans-serif;
+}
+
+.template1 {
+  background-image: url('background1.jpg');
+}
+
+.template2 {
+  background-image: url('background2.jpg');
+}
+
+.template3 {
+  background-image: url('background3.jpg');
+}
+
+.resume {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume h2 {
+  font-size: 36px;
+  color: #333;
+  margin-top: 0;
+}
+
+.resume p {
+  font-size: 16px;
+  color: #333;
+}
+
+.resume .section-title {
+  font-size: 20px;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.resume ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resume ul li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list div {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-info div {
+  font-weight: bold;
+}
